@@ -53,7 +53,7 @@ const playGame = (userchoice) => {
             userWin = compChoice === "scissors" ? false : true;
         }else {
             // use to pehle hi stone or paper le cuka hai mtln to bs scissor hi le sakta hai to fir computer ke pass bs yehi do optiokn bachta hai rock , paper .
-            userWin = compChoice === "rock" ? false :true;
+            userWin = compChoice === "stone" ? false :true;
         }
         showWinner(userWin, userchoice, compChoice);
     }
